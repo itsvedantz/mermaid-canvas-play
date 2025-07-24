@@ -61,7 +61,28 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				editor: {
+					background: 'hsl(var(--editor-background))',
+					border: 'hsl(var(--editor-border))'
+				},
+				preview: {
+					background: 'hsl(var(--preview-background))'
+				},
+				toolbar: {
+					background: 'hsl(var(--toolbar-background))'
 				}
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-background': 'var(--gradient-background)'
+			},
+			boxShadow: {
+				'elevation': 'var(--shadow-elevation)',
+				'glow': 'var(--shadow-glow)'
+			},
+			fontFamily: {
+				mono: ['JetBrains Mono', 'Fira Code', 'Monaco', 'Consolas', 'monospace']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
